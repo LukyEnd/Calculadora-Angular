@@ -1,0 +1,113 @@
+.kz-input-text {
+  border: 2px solid #CCCCCE;
+  border-radius: 20px;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, .3), 0 2px 7px rgba(0, 0, 0, 0.2);
+  color: #222230;
+  display: block;
+  font-family: "Trebuchet MS";
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 6px;
+  text-align: right;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+  margin-top: 5px;
+  width: 43%;
+  margin-left: 2px;
+}
+
+.tela {
+  /* border: 5px solid #000000; */
+  border-radius: 20px;
+  color: #050597;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  margin-left: -110px;
+  margin-top: -40px;
+}
+
+#btnDivision, #btnMultiplication,
+#btnSubtraction, #btnSum, #btnPonto,
+#bntCalculate, .btn-operations  {
+  background: -webkit-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+  background: -moz-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+  background: -o-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+  background: -ms-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+  background: linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+  border: 1px solid #CCCCCE;
+  border-radius: 30px;
+  color: #616165;
+  display: block;
+  font-family: "Trebuchet MS";
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 60px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0 #FFF;
+  padding: 1px 20px;
+  position: relative;
+  width: 100px;
+  /* foco */
+  outline: none;
+  box-shadow: none;
+}
+
+#btnDivision, #btnMultiplication,
+#btnSubtraction, #btnSum, #btnPonto{
+  border-color: #eb9b48;
+  background: linear-gradient(to bottom, #f7d6b3 5%, #eb9b48 100%);
+  box-shadow: inset 0px 1px 0px 0px #fdf7f0;
+  color: #333;
+  text-shadow: 0px 1px 0px #ffee66;
+}
+
+#btnCalculate{
+  border-color: #68b465;
+  background: linear-gradient(to bottom, #abd5aa 5%, #68b465 100%);
+  box-shadow: inset 0px 1px 0px 0px #e3f1e3;
+  color: #fff;
+  text-shadow: 0px 1px 0px #528009;
+}
+
+.btn-operations {
+  border-color: #46a7f5;
+  background: linear-gradient(to bottom, #86c6f8 5%, #46a7f5 100%);
+  box-shadow: inset 0px 1px 0px 0px #d7ecfd;
+  color: #fff;
+  text-shadow: 0px 1px 0px #528009;
+  width: 90%;
+  margin: 4px;
+}
+
+#btnCalculate, #btn0{
+ width: 185px;
+}
+
+#btnPonto{
+  border-color: #c52540;
+  background: linear-gradient(to bottom, #f5558a 5%, #f5558a 100%);
+  box-shadow: inset 0px 1px 0px 0px #d7ecfd;
+  color: #fff;
+}
+
+.btn-operations:focus{
+  color: rgb(13, 47, 196);
+}
+
+#btnDivision:focus, #btnMultiplication:focus,
+#btnSubtraction:focus, #btnSum:focus{
+  color: #20e9e9;
+}
+
+#btnPonto:focus{
+  color: #131801;
+}
+
+#btnCalculate:focus{
+  color: #72af0e;
+}
